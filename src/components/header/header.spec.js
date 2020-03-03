@@ -1,6 +1,7 @@
 import React from "react";
 import { shallow } from "enzyme";
 import Header from "./index";
+
 import { findByTestAttr } from "../../../utils";
 
 const setUp = (props = {}) => {

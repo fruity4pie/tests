@@ -1,7 +1,7 @@
 import Enzyme from "enzyme";
-import EnzymeAdapter from "enzyme-adapter-react-16";
+import Adapter from "enzyme-adapter-react-16";
 
-EnzymeAdapter.configure({
-  adapter: new EnzymeAdapter(),
+Enzyme.configure({
+  adapter: new Adapter(),
   disableLifecycleMethods: true
 });
